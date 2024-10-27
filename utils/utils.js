@@ -20,7 +20,9 @@ module.exports = {
  
   getRandomWelcomeMessage: () => {
     const messages = [
-     'Selam, oda sahibine bağış yapmayı ve odayı boostlamayı unutma. ❤️',
+     '❤️ سلام، با افزودن طلا به نکات و فشردن بوست می توانید از اتاق حمایت کنید.',
+      'ما ترک ها ایرانی ها را خیلی دوست داریم لطفا در اتاق بمانید.',
+      'لطفا دوستان خود را به اتاق دعوت کنید'
     ] 
     return messages[Math.floor(Math.random() * messages.length)];
   }
